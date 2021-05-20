@@ -37,19 +37,9 @@ body{background: #000;}
 
 #qnapage h3 img{max-width: 100%;}
 
-#searchb a .search{top: 293.3px;left: 1350.5px;cursor: pointer;}
-#searchb a .search_e{width: 525px;  height: 264px;  top: 244.3px;  left: 1289.5px;opacity: 0;}
-#searchb a:hover .search_e, #searchb a:focus .search_e{opacity: 1;}
-
-/* #qnapage a:focus .search, #qnapage a:hover .search{.searcj_e가 나타나게하고 싶음} */
-
-#moreb a .more{top: 487.8px;left: 417px;width: 697.5px;height: 136px;}
-#moreb a .more_e{top: 476px;left: 401px;width: 728.5px;height: 162px;opacity: 0;}
-#moreb a:hover .more_e, #moreb a:focus .more_e{opacity: 1;}
-
-
-
-
-
-
-.footer{top: 5070px;}
+#searchb a, #searchb a img, #moreb a, #moreb a img{position: absolute;}
+#searchb a{top: 29.5%;right: 5%;width: 27.798%;}
+#moreb a{bottom: 44%;left: 20.52%;width: 38.676%;}
+#searchb a img, #moreb a img{top: 0;left: 0;max-width: 100%;}
+#searchb a .search_e, #moreb a .more_e{opacity: 0;transition: opacity 0.5s;}
+#searchb a:hover img, #searchb a:focus img, #moreb a:hover img, #moreb a:focus img{opacity: 1;}
