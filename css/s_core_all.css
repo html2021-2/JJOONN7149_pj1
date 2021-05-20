@@ -1,0 +1,109 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/S-CoreDream-1Thin.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-1Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-1Thin.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-1Thin.woff') format('woff'),
+  url('../fonts/S-CoreDream-1Thin.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-1Thin.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/S-CoreDream-2ExtraLight.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-2ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-2ExtraLight.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-2ExtraLight.woff') format('woff'),
+  url('../fonts/S-CoreDream-2ExtraLight.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-2ExtraLight.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/S-CoreDream-3Light.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-3Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-3Light.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-3Light.woff') format('woff'),
+  url('../fonts/S-CoreDream-3Light.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-3Light.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/S-CoreDream-4Regular.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-4Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-4Regular.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-4Regular.woff') format('woff'),
+  url('../fonts/S-CoreDream-4Regular.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-4Regular.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/S-CoreDream-5Medium.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-5Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-5Medium.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-5Medium.woff') format('woff'),
+  url('../fonts/S-CoreDream-5Medium.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-5Medium.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/S-CoreDream-6Bold.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-6Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-6Bold.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-6Bold.woff') format('woff'),
+  url('../fonts/S-CoreDream-6Bold.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-6Bold.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/S-CoreDream-7ExtraBold.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-7ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-7ExtraBold.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-7ExtraBold.woff') format('woff'),
+  url('../fonts/S-CoreDream-7ExtraBold.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-7ExtraBold.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/S-CoreDream-8Heavy.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-8Heavy.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-8Heavy.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-8Heavy.woff') format('woff'),
+  url('../fonts/S-CoreDream-8Heavy.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-8Heavy.svg#SCoreDream') format('svg');
+}
+@font-face {
+  font-family: 'SCoreDream';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/S-CoreDream-9Black.eot');
+  src: local("S-Core Dream"),
+  url('../fonts/S-CoreDream-9Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/S-CoreDream-9Black.woff2') format('woff2'),
+  url('../fonts/S-CoreDream-9Black.woff') format('woff'),
+  url('../fonts/S-CoreDream-9Black.ttf') format('truetype'),
+  url('../fonts/S-CoreDream-9Black.svg#SCoreDream') format('svg');
+}

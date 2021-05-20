@@ -1,0 +1,55 @@
+@charset "utf-8";
+body{background: #000;}
+
+#wrap{min-width: 1366px;}
+/* header가 sub 랑 같다면 common.css로 이동시킵시다 */
+#header{position: fixed; top: 0; left: 0; background: #bd4848; width: 100%;  height: 80px; padding: 0 70px; box-sizing: border-box; z-index: 100;}
+#header.active::before{content: ''; position: absolute; background: #e9c7a4; top: 80px; left: 0; width: 100%; height: 49px;}
+#header > div:first-child{max-width: 1763px; margin: 0 auto; border-bottom: 1px solid #999;}
+#header .logo a{position: fixed; top: 5px; left: 70px; width: 290px; height: 70px; vertical-align: middle; background: url("../images/01_common/kgr_logo_long_white.png") no-repeat left center; background-size: contain; z-index: 120;}
+#header .search a{position: fixed; top: 25px; right: 70px; width: 30px; height: 30px; background: url("../images/01_common/이훈_icon/search_white.png") no-repeat right top; background-size: cover; z-index: 120;}
+
+/* #gnb */
+#gnb{text-align: center;}
+#gnb>ul>li{display: inline-block; position: relative;}
+#gnb>ul>li+li{margin-left: 30px;}
+#gnb ul li a{display: block;}
+#gnb>ul>li>a{height: 78px; line-height: 78px;font-size: 20px; color: #fff; border-bottom: 3px solid transparent; font-weight: 400;}
+#gnb>ul>li:hover>a,#gnb>ul>li>a:focus,#gnb>ul>li.on>a{color: #e9c7a4; border-bottom-color: #fff; font-weight: 600;}
+#gnb ul li ul{width: 800px; height: 49px; line-height: 49px; position: absolute; top: 80px; left: 0; text-align: left; padding-top: 1px;}
+#gnb ul li ul li{float: left; margin-right: 20px;}
+#gnb ul li ul li a{font-size: 16px; color: #000;}
+#gnb ul li ul li:hover a,#gnb ul li ul li a:focus{color: #bd4848; font-weight: 500;}
+
+/* 비디오 */
+.visual_wrap{position: relative;padding-bottom: 56.25%;overflow: hidden;}
+.visual_wrap video{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: auto;height: auto;min-width: 100%;min-height: 100%;}/* 영상 브라우저 가운데 위치시키며 가로 세로 크기를 가득 채우고 싶은 경우 사용하기 */
+
+#poster img{max-width: 100%;}
+
+/* 40.10416666666667 770 */
+
+#notice{position: relative;min-height: 768px;padding-top: 56.25%;box-sizing: border-box; background: url("../images/02_main/notice_final.jpg") no-repeat;background-size: contain;}
+#notice > a:nth-of-type(1){top: 2.4479vw; right: 23.9%; width: 35.85%; }
+#notice > a:nth-of-type(2){top: 2.4479vw; right: 4%; width: 16.3%; }
+#notice > a:nth-of-type(3){bottom: 3.05vw; right: 4%; width: 55.75%; }
+#notice > a img{max-width: 100%;}
+
+#qnapage h3 img{max-width: 100%;}
+
+#searchb a .search{top: 293.3px;left: 1350.5px;cursor: pointer;}
+#searchb a .search_e{width: 525px;  height: 264px;  top: 244.3px;  left: 1289.5px;opacity: 0;}
+#searchb a:hover .search_e, #searchb a:focus .search_e{opacity: 1;}
+
+/* #qnapage a:focus .search, #qnapage a:hover .search{.searcj_e가 나타나게하고 싶음} */
+
+#moreb a .more{top: 487.8px;left: 417px;width: 697.5px;height: 136px;}
+#moreb a .more_e{top: 476px;left: 401px;width: 728.5px;height: 162px;opacity: 0;}
+#moreb a:hover .more_e, #moreb a:focus .more_e{opacity: 1;}
+
+
+
+
+
+
+.footer{top: 5070px;}

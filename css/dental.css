@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+body{background: #fff;}
+h1, h2, h3, h4,strong, th{font-size: inherit;font-weight: normal;}
+th, td,p{margin: 0;padding: 0;}
+table{border-spacing: 0;border-collapse: collapse;} 
+h4{display: block;}
+.clearfix::after{clear: both;display: block;content: "";}
+#section{height: 4759px;}
+
+#top{color: red;text-align: center;}
+#top + img{height: 450px;}
+#top h2{position: absolute;margin: 138px 0 215px;top: 20px;left: 817px;font-size: 35px;font-weight: 500;}
+#top h2 + p{position: absolute;top: 240px;left: 824px;font-size: 20px; font-weight: 300;color: #fff;}
+#top ul{position: absolute;top: 335px;left: 600px;}
+#top ul > li{float: left;width: 226px; height: 54px;background: grey;border-radius: 11px;font-size: 25px;line-height: 54px;}
+#top ul li + li{margin-left: 50px;}
+/* #top  > ul  > li{position: relative;} */
+#top ul li:first-child a{position: relative;padding-left: 25px;}
+#top ul li:first-child a::after{content: "";background: url("../images/10_dental/Iconhome.png") no-repeat;width: 24px;height: 20px;position: absolute;top: 5px;left: -2px;}
+/* #top ul li:nth-child(2) a::after,#top ul li:nth-child(3) a::after{content: ""; position: absolute;  width: 18.3px;  height: 32px; background: url("../images/10_dental/arrow-forward_white.png") no-repeat ; top: 11px, left:-17px;border: 1px solid #000;}  */
+#start strong{font-size: 35px;margin: 82px auto 0 auto;display: block;text-align: center;}
+#start > p{font-size: 25px; font-weight: 300;margin: 50px auto 0 auto;display: block;width: 1155px; height: 100px;}
+#start ul{margin: 50px auto;display: block;}
+#start ul li + li{margin-left: 149px;}
+
+h4{margin: 240px 0 53px 0;font-size: 33px;font-weight: 500;position: relative; height: 46px;padding-left: 33px;}
+h4::after{content: "";position: absolute;background: url("../images/10_dental/reddot.png");width: 22px;height: 22px;top: 12px;left: 0;}
+#goal{width: 984px;height: 713px;background: url("../images/10_dental/gridlayout.png") no-repeat;position: relative;text-align: center;}
+#goal .goaltxt{font-size: 16px;line-height: 23px;text-align: center;position: absolute;display: block;}
+#goal li p{width: 282px; height: 152px;}
+#goal li{float: left;}
+#goal1{top: 29px;left: 35px;margin-top: 30px;}
+#goal2{top: 524px;left: 35px;margin-top: 55px;}
+#goal li + li{margin-left: 32px;}
+#goal #goal2 + strong{position: absolute;width: 539px; height: 164px;top: 263px;left: 213px;font-size: 20px;line-height: 2.25;font-weight: 400;}
+#goal > strong:nth-child(1){width: 215px;  height: 60px;display: inline-block;position: absolute;top: 212px;left: 35px;line-height: 60px;}
+#goal > strong:nth-child(3){width: 215px;  height: 60px;  display:inline-block;position: absolute;line-height: 60px;top: 428px; left: 733px;}
+
+#curriculum{width: 1256px;}
+#curriculum .column{width: 575px;height: 377px;border: 1px solid #000;line-height: 26px;float: left;padding-left: 20px;position: relative;}
+#curriculum .column::after{content: "";position: absolute;width: 7px;height: 100%;background-color: #e9c7a4;top: 0;left: 0;}
+#curriculum .column + .column{margin-left: 20px;}
+#curriculum .column .txtbox strong{font-size: 22px;height: 66px;display: inline-block;padding: 7px 0 0 5px;width: 100%;}
+#curriculum #column1 .txtbox:nth-child(1) strong{background: url("../images/10_dental/oneside1.png") no-repeat;}
+#curriculum #column1 .txtbox:nth-child(2) strong{background: url("../images/10_dental/oneside3.png")no-repeat;}
+#curriculum #column2 .txtbox:nth-child(1) strong{background: url("../images/10_dental/oneside2.png")no-repeat;}
+#curriculum #column2 .txtbox:nth-child(2) strong{background: url("../images/10_dental/oneside4.png")no-repeat;}
+#curriculum #column1 .txtbox:nth-child(2){margin-top: 23px;}
+#curriculum #column1 .txtbox:nth-child(1), #curriculum #column2 .txtbox:nth-child(1){margin-bottom: 18px;}
+#curriculum .column .txtbox strong + p{font-size: 16px;margin-top: 5px;}
+
+#process{text-align: center;margin-top: 50px;}
+#process td{border-left: 1px solid #73615B;border-bottom: 1px solid #73615B;}
+#process th{border-bottom: 1px solid #73615B;background-color: #e9c7a4;}
+#process th + th{border-left: 1px solid #73615B;}
+#process th, #process td{padding: 30px;}
+.wid190{width: 190px;}
+.wid272{width: 272px;}
+.wid388{width: 388px;}
+.wid388{width: 388px;}
+.wid396{width: 396px;}
+ 
+#tooth{border: 1px solid red;margin-bottom: 50px;width: 100%;height: 735px;}
+.toothprof{width: 404px;height: 495px;border: 1px solid #000;text-align: center;background: url("../images/10_dental/tooth.png");position: relative;float: left;}
+.toothprof > *{display: block;position: absolute;}
+.toothprof img{width: 197px;height: 197px;top: 70px;left: 86.3px;}
+.toothprof strong{font-size: 27px;font-weight: 500;top: 280px;left: 159.6px;}
+.toothprof p{font-size: 20px;font-weight: 300;top: 320px;left: 86.6px;}
+.toothprof a{width: 92px;height: 27px;background: #BD4848;color: #fff;box-sizing: border-box;border-radius: 5px;top: 370px;left: 152.9px;padding-right: 15px;line-height: 27px;}
+.toothprof a::after{content: "";background: url("../images/10_dental/arrow-forward_white.png") no-repeat; width: 10px; height: 17px;border: 1px solid #000;position: absolute;top:5.5px;left: 66px;}
+#tooth1 , #tooth2, #tooth3{position: relative;text-align: center;}
+.toothshadow{background: url("../images/10_dental/toothshadow.png") no-repeat;width: 400px;height: 300px;position: absolute;top: 480px;}
+.toothshadow > p{position: absolute;padding: 20px;background-color: #fff;width: 180px;height: 80px;left: 87px;top: 84px;line-height: 26px;border-radius: 10px;}
+#tooth2 > .toothshadow{left: 411px;}
+#tooth3 > .toothshadow{left: 411px;}
+
+#news a{float: left;}
+
+#news a img{border: 1px solid #000;}
+#news a{position: relative;}
+#news a + a{margin-left: 10px;}
+#news > a:first-child img{width: 494px;height: 494px;}
+#news a p{font-size: 27px;position: absolute;background: rgba(0, 0, 0, 0.788);color: #fff;left: 0;bottom: 0;width: 100%;height: 100px;line-height: 100px;opacity: 0;}
+#news a:hover p, a:focus p{opacity: 1;}
