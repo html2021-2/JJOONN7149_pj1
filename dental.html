@@ -5,204 +5,328 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> 치위생과-학과소개 </title>
+  <title> 치위생과 - 학과소개 </title>
+  <link rel="stylesheet" href="css/sub_common.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/dental.css">
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#tooth .toothprof a').on('click', function () {
+        $(this).parent().next('.toothshadow').stop().slideToggle('fast');
+        return false;
+      });
+    });
+  </script>
 </head>
 
 <body>
-  <div id="skip"></div>
-  <header class="header" id="header"></header>
-    <section id="section">
-      <div id="top" class="top p_r">
-        <img src="images/10_dental/headerpic.png" alt="">
-        <h2>치위생과</h2>
-        <p>DEPT. OF DENTAL HYGUEINE</p>
-        <ul id="breadcrumbs">
-          <li><a href="">고구려 대학교</a></li>
-          <li><a href="">학과 소개</a></li>
-          <li><a href="">치위생과</a></li>
-        </ul>
-      </div>
-      <div id="start">
-        <strong>건강한 미소, 새로운 시작</strong>
-        <p>위생학 이론과 임상실습을 기초로 하여 구강 질환의 예방적 치과 처치 및 치과 업무에 관련한 전문지식과 <br>최신 기술을 습득함으로써 인류애와 생명존중 정신을 바탕으로 국민 건강증진에 기여할
-          지식과 기술을 <br>연마하여 전문직 치과위생사 양성을 목표로 하고 있습니다.</p>
+  <div id="skip">
+    <a href="#section">본문 바로가기</a>
+  </div>
+  <header id="header" class="">
+    <h1 class="logo"><a href="">
+        <p class="blind"></p>
+      </a></h1>
+    <div>
+      <nav id="gnb">
+        <h2 class="blind">주메뉴</h2>
         <ul>
-          <li class="shortcut f_l"><a href=""><img src="images/10_dental/goal1.png" alt="교육목표"></a></li>
-          <li class="shortcut f_l"><a href=""><img src="images/10_dental/curriculum2.png" alt="교육과정 소개"></a></li>
-          <li class="shortcut f_l"><a href=""><img src="images/10_dental/prof3.png" alt="교수소개"></a></li>
-          <li class="shortcut f_l"><a href=""><img src="images/10_dental/notice4.png" alt="입학안내와 공지사항"></a></li>
+          <li class=""><a href="">대학소개</a>
+            <ul>
+              <li><a href="">인사말</a></li>
+              <li><a href="">대학연혁</a></li>
+              <li><a href="">대학비전</a></li>
+              <li><a href="">학교상징</a></li>
+              <li><a href="">연락처</a></li>
+              <li><a href="">찾아오시는 길</a></li>
+            </ul>
+          </li>
+          <li><a href="">학과소개</a>
+            <ul>
+              <li><a href="">치위생과</a></li>
+              <li><a href="">곤충산업복지과</a></li>
+              <li><a href="">미용관광복지과</a></li>
+              <li><a href="">토목조경과</a></li>
+              <li><a href="">에너지복지과</a></li>
+              <li><a href="">유아교육과</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="">대학생활</a>
+            <ul>
+              <li><a href="">학생지원</a></li>
+              <li><a href="">학교문화</a></li>
+              <li><a href="">알림/참여</a></li>
+              <li><a href="" title="새 창 열림">도서관</a></li>
+            </ul>
+          </li>
+          <li><a href="">학사지원</a>
+            <ul>
+              <li><a href="">학사일정</a></li>
+              <li><a href="">장학제도</a></li>
+              <li><a href="">학사 Q&amp;A</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="" title="새 창 열림">입학안내</a>
+            <ul>
+              <li><a href="">수시 및 정시</a></li>
+              <li><a href="">입학 정보</a></li>
+            </ul>
+          </li>
         </ul>
+      </nav>
+    </div>
+    <div class="search">
+      <a href=""></a>
+    </div>
+  </header>
+  <section id="section">
+    <div id="top">
+      <h2>치위생과</h2>
+      <p>DEPT. OF DENTAL HYGUEINE</p>
+      <ul class="breadcrumbs">
+        <li><a href="">고구려 대학교</a></li>
+        <li><a href="">학과 소개</a></li>
+        <li><a href="">치위생과</a></li>
+      </ul>
+    </div>
+    <div id="start">
+      <strong>건강한 미소, 새로운 시작</strong>
+      <p>위생학 이론과 임상실습을 기초로 하여 구강 질환의 예방적 치과 처치 및 치과 업무에 관련한 전문지식과 <br>최신 기술을 습득함으로써 인류애와 생명존중 정신을 바탕으로 국민 건강증진에 기여할
+        지식과 기술을 <br>연마하여 전문직 치과위생사 양성을 목표로 하고 있습니다.</p>
+      <ul class="shortcutul">
+        <li class="shortcut"><a href="#goal"><img src="images/10_dental/goal1.png" alt="교육목표 바로가기"></a></li>
+        <li class="shortcut"><a href="#curriculum"><img src="images/10_dental/curriculum2.png" alt="교육과정 소개 바로가기"></a>
+        </li>
+        <li class="shortcut"><a href="#tooth"><img src="images/10_dental/prof3.png" alt="교수소개 바로가기"></a></li>
+        <li class="shortcut"><a href="#news"><img src="images/10_dental/notice4.png" alt="입학안내와 공지사항 바로가기"></a></li>
+      </ul>
+    </div>
+    <h4 class="title">교육목표</h4>
+    <div id="goal">
+      <strong>고구려대학교</strong>
+      <ul id="goal1" class="goaltxt">
+        <li>
+          <p>성실한 직업인<br><br>올바른 가치관과 조화로운 인격배양<br>글로벌 전문직업인 양성</p>
+        </li>
+        <li>
+          <p>창의적인 직업인<br><br>탐구적 자세와 창의력 증진<br>지식의 종합적인 실천 능력 함양</p>
+        </li>
+        <li>
+          <p>봉사하는 직업인<br><br>도전적이고 긍정적인 사고 배양<br>사회를 위해 헌신하는 봉사정신 함양</p>
+        </li>
+      </ul>
+      <strong>치위생학과</strong>
+      <ul id="goal2" class="goaltxt">
+        <li>
+          <p>우수한 치위생과<br>전문 인력 양성</p>
+        </li>
+        <li>
+          <p>창의적 인성과<br>탐구정신 함양</p>
+        <li>
+        <li>
+          <p>보건의료인으로서의<br>봉사형 인재 양성</p>
+        </li>
+      </ul>
+      <strong>치위생학의 새로운 지식과 기술을 연마한다<br>
+        구강질환 예방의 기술 습득을 한다<br>
+        지역사회 구강보건 사업 교육자로서의 능력을 갖춘다<br>
+        치과위생사로서 사명감, 책임감, 윤리의식을 갖춘다<br></strong>
+    </div>
+    <h4 class="title">교육과정 소개</h4>
+    <div id="curriculum">
+      <div id="column1" class="column">
+        <div class="txtbox">
+          <strong>1. 치위생기초<br>
+            _Basic science of Dental Hygiene</strong>
+          <p>치의학용어, 구강해부학, 치아형태학 등 기초학문 학습<br>
+            Basic science such as dental terminology, oral anatomy, and dental <br>morphology</p>
+        </div>
+        <div class="txtbox">
+          <strong>3. 치위생임상<br>
+            _Clinical studies of Dental Hygiene</strong>
+          <p>치과보존학, 치과보철학, 치과교정학 등 임상실무전단계 관련 지식 및 업무 <br>능력 향상을위한 학습<br>
+            Study for oral endodontology, oral prosthodontology, oral orthodontics</p>
+        </div>
       </div>
-      <h4>교육목표</h4>
-      <div id="goal">
-        <strong>고구려대학교</strong>
-        <ul id="goal1" class="goaltxt">
-          <li>
-            <p>성실한 직업인<br><br>올바른 가치관과 조화로운 인격배양<br>글로벌 전문직업인 양성</p>
-          </li>
-          <li>
-            <p>창의적인 직업인<br><br>탐구적 자세와 창의력 증진<br>지식의 종합적인 실천 능력 함양</p>
-          </li>
-          <li>
-            <p>봉사하는 직업인<br><br>도전적이고 긍정적인 사고 배양<br>사회를 위해 헌신하는 봉사정신 함양</p>
-          </li>
-        </ul>
-        <strong>치위생학과</strong>
-        <ul id="goal2" class="goaltxt">
-          <li>
-            <p>우수한 치위생과<br>전문 인력 양성</p>
-          </li>
-          <li>
-            <p>창의적 인성과<br>탐구정신 함양</p>
-          <li>
-          <li>
-            <p>보건의료인으로서의<br>봉사형 인재 양성</p>
-          </li>
-        </ul>
-        <strong>치위생학의 새로운 지식과 기술을 연마한다<br>
-          구강질환 예방의 기술 습득을 한다<br>
-          지역사회 구강보건 사업 교육자로서의 능력을 갖춘다<br>
-          치과위생사로서 사명감, 책임감, 윤리의식을 갖춘다<br></strong>
+      <div id="column2" class="column">
+        <div class="txtbox">
+          <strong>2. 치위생교육 및 관리<br>
+            _Education and Management of Dental Hygiene</strong>
+          <p>구강보건교육학, 예방치과학, 공중보건학 등 구강보건 전문가 양성을 위한 기초 <br>학습 및 실습<br>
+            Learning and practice for oral healty education, preventice dentistry, <br>and national oral health
+            objectives</p>
+        </div>
+        <div class="txtbox">
+          <strong>4. 치위생실습<br>
+            _Practical studies of Dental Hygiene</strong>
+          <p>임상전단계실습, 치면세마(치석제거), 치과병의원 실습 등 실무 능력 향상을 위한 <br>임상실습<br>
+            Study for oral prophylaxis practice, comprehensive dental hygiene practice, and dental clinical
+            practice
+          </p>
+        </div>
       </div>
-      <h4>교육과정 소개</h4>
-      <div id="curriculum">
-        <div id="column1" class="column">
-          <div class="txtbox">
-            <strong>1. 치위생기초<br>
-              _Basic science of Dental Hygiene</strong>
-            <p>치의학용어, 구강해부학, 치아형태학 등 기초학문 학습<br>
-              Basic science such as dental terminology, oral anatomy, and dental <br>morphology</p>
-          </div>
-          <div class="txtbox">
-            <strong>3. 치위생임상<br>
-              _Clinical studies of Dental Hygiene</strong>
-            <p>치과보존학, 치과보철학, 치과교정학 등 임상실무전단계 관련 지식 및 업무 <br>능력 향상을위한 학습<br>
-              Study for oral endodontology, oral prosthodontology, oral orthodontics</p>
-          </div>
+      <table id="process">
+        <caption class="blind">치위생학과 교육과정</caption>
+        <colgroup>
+          <col class="wid190">
+          <col class="wid272">
+          <col class="wid388">
+          <col class="wid388">
+          <col class="wid396">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col" id="a">교육과정</th>
+            <th scope="col" id="b">적용시기</th>
+            <th scope="col" id="c">주요 과목</th>
+            <th scope="col" id="d">주요 교육내용</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" id="c1">치위생기초</th>
+            <td scope="c1 b" id="c1">1학년 1학기~2학년 1학기</td>
+            <td td scope="c1 c" id="c1">치의학용어, 구강해부학, 구강생리학, 구강조직발생학, 치아형태학, 구강미생물학, 구강병리학</td>
+            <td scope="c1 d" id="c1">치과진료 전 구강해부학적 구조를 비롯한 치과 기초 이론 교육</td>
+          </tr>
+          <tr>
+            <th scope="row" id="c1">치위생교육 및 관리</th>
+            <td scope="c1 b" id="c1">1학년 1학기~3학년 1학기 </td>
+            <td td scope="c1 c" id="c1">구강보건교육학, 예방치과학, 공중보건학, 치과건강보험, 보건의료법규</td>
+            <td scope="c1 d" id="c1">치과임상실무 전단계를 위한 임상실습교육 진행
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="c1">치위생임상</th>
+            <td scope="c1 b" id="c1">1학년 1학기~3학년 2학기 </td>
+            <td td scope="c1 c" id="c1">치과보존학, 치과보철학, 치과임플란트학, 치과교정학, 치과방사선학, 치과재료학, 구강악안면외과학, 소아청소년치과학, 치주학 </td>
+            <td scope="c1 d" id="c1">치과진료과정을 충분히 수행할수 있는 업무 내용을 파악하는 교육 진행
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" id="c1">치위생실습</th>
+            <td scope="c1 b" id="c1">2학년 2학기~3학년 1학기 </td>
+            <td td scope="c1 c" id="c1">임상전단계실습, 치면세마학, 동/하계 치과병의원 실습 </td>
+            <td scope="c1 d" id="c1">임상전단계실습, 치면세마학실습 및 치과병의원 실습을 통해 실무 능력을 함양하는 학습 교육 진행
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h4 class="title">교수진 소개</h4>
+    <ul id="tooth">
+      <li id="tooth1">
+        <div class="toothprof">
+          <img src="images/10_dental/semioldman.png" alt="">
+          <strong>김현종</strong>
+          <p>구강방사선학, 치과보존학</p>
+          <a href="">더보기</a>
         </div>
-        <div id="column2" class="column">
-          <div class="txtbox">
-            <strong>2. 치위생교육 및 관리<br>
-              _Education and Management of Dental Hygiene</strong>
-            <p>구강보건교육학, 예방치과학, 공중보건학 등 구강보건 전문가 양성을 위한 기초 <br>학습 및 실습<br>
-              Learning and practice for oral healty education, preventice dentistry, <br>and national oral health
-              objectives</p>
-          </div>
-          <div class="txtbox">
-            <strong>4. 치위생실습<br>
-              _Practical studies of Dental Hygiene</strong>
-            <p>임상전단계실습, 치면세마(치석제거), 치과병의원 실습 등 실무 능력 향상을 위한 <br>임상실습<br>
-              Study for oral prophylaxis practice, comprehensive dental hygiene practice, and dental clinical
-              practice
-            </p>
-          </div>
+        <div class="toothshadow" id="tooths1">
+          <p>교수 연구실: E-806호<br>
+            연락처: 02-2349-6662<br>
+            E-mail: KHJ@kgr.net</p>
         </div>
-        <table id="process">
-          <caption class="blind">치위생학과 교육과정</caption>
-          <colgroup>
-            <col class="wid190">
-            <col class="wid272">
-            <col class="wid388">
-            <col class="wid388">
-            <col class="wid396">
-          </colgroup>
-          <thead>
-            <tr>
-              <th scope="col" id="a">교육과정</th>
-              <th scope="col" id="b">적용시기</th>
-              <th scope="col" id="c">주요 과목</th>
-              <th scope="col" id="d">주요 교육내용</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" id="c1">치위생기초</th>
-              <td scope="c1 b" id="c1">1학년 1학기~2학년 1학기</td>
-              <td td scope="c1 c" id="c1">치의학용어, 구강해부학, 구강생리학, 구강조직발생학, 치아형태학, 구강미생물학, 구강병리학</td>
-              <td scope="c1 d" id="c1">치과진료 전 구강해부학적 구조를 비롯한 치과 기초 이론 교육</td>
-            </tr>
-            <tr>
-              <th scope="row" id="c1">치위생교육 및 관리</th>
-              <td scope="c1 b" id="c1">1학년 1학기~3학년 1학기 </td>
-              <td td scope="c1 c" id="c1">구강보건교육학, 예방치과학, 공중보건학, 치과건강보험, 보건의료법규</td>
-              <td scope="c1 d" id="c1">치과임상실무 전단계를 위한 임상실습교육 진행
-              </td>
-            </tr>
-            <tr>
-              <th scope="row" id="c1">치위생임상</th>
-              <td scope="c1 b" id="c1">1학년 1학기~3학년 2학기 </td>
-              <td td scope="c1 c" id="c1">치과보존학, 치과보철학, 치과임플란트학, 치과교정학, 치과방사선학, 치과재료학, 구강악안면외과학, 소아청소년치과학, 치주학 </td>
-              <td scope="c1 d" id="c1">치과진료과정을 충분히 수행할수 있는 업무 내용을 파악하는 교육 진행
-              </td>
-            </tr>
-            <tr>
-              <th scope="row" id="c1">치위생실습</th>
-              <td scope="c1 b" id="c1">2학년 2학기~3학년 1학기 </td>
-              <td td scope="c1 c" id="c1">임상전단계실습, 치면세마학, 동/하계 치과병의원 실습 </td>
-              <td scope="c1 d" id="c1">임상전단계실습, 치면세마학실습 및 치과병의원 실습을 통해 실무 능력을 함양하는 학습 교육 진행
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <h4>교수진 소개</h4>
-      <div id="tooth">
-        <div id="tooth1">
-          <div class="toothprof">
-            <img src="images/10_dental/semioldman.png" alt="">
-            <strong>김현종</strong>
-            <p>구강방사선학, 치과보존학</p>
-            <a href="">더보기</a>
-          </div>
-          <div class="toothshadow" id="tooths1">
-            <p>교수 연구실: E-806호<br>
-              연락처: 02-2349-6662<br>
-              E-mail: KHJ@kgr.net</p>
-          </div>
+      </li>
+      <li id="tooth2">
+        <div class="toothprof">
+          <img src="images/10_dental/woman.png" alt="">
+          <strong>박미소</strong>
+          <p>구강해부학, 치아형태학</p>
+          <a href="">더보기</a>
         </div>
-        <div id="tooth2">
-          <div class="toothprof">
-            <img src="images/10_dental/woman.png" alt="">
-            <strong>박미소</strong>
-            <p>구강해부학, 치아형태학</p>
-            <a href="">더보기</a>
-          </div>
-          <div class="toothshadow" id="tooths2">
-            <p>교수 연구실: E-714호 <br>
-              연락처: 02-5330-6662<br>
-              E-mail: miso@kgr.net</p>
-          </div>
+        <div class="toothshadow" id="tooths2">
+          <p>교수 연구실: E-714호 <br>
+            연락처: 02-5330-6662<br>
+            E-mail: miso@kgr.net</p>
         </div>
-        <div id="tooth3">
-          <div class="toothprof">
-            <img src="images/10_dental/youngman.png" alt="">
-            <strong>최호식</strong>
-            <p>공중보건학, 치과교정학</p>
-            <a href="">더보기</a>
-          </div>
+      </li>
+      <li id="tooth3">
+        <div class="toothprof">
+          <img src="images/10_dental/youngman.png" alt="">
+          <strong>최호식</strong>
+          <p>공중보건학, 치과교정학</p>
+          <a href="">더보기</a>
         </div>
         <div class="toothshadow" id="tooths3">
           <p>교수 연구실: E-701호<br>
             연락처: 02-4882-6662<br>
             E-mail: hosic2@kgr.net</p>
         </div>
-      </div>  
-    <h4>입학 안내 / 공지 사항</h4>
+      </li>
+    </ul>
+    <h4 class="title">입학 안내 / 공지 사항</h4>
     <div div id="news">
-     <a href="" title="새 창 열기">
+      <a href="" title="새 창 열기">
         <img src="images/10_dental/news1.png" alt="">
-       <p>2022년 치위생과 입시요강 개편 소식</p>
+        <p>2022년 치위생과 입시요강 개편 소식</p>
       </a>
-     <a href="" title="새 창 열기">
-       <img src="images/10_dental/news2.png" alt="">
-       <p>김현종 교수의 바바근본학회본맹 회장 취임을 축하드립니다</p>
+      <a href="" title="새 창 열기">
+        <img src="images/10_dental/news2.png" alt="">
+        <p>김현종 교수의 바바근본학회본맹 회장 취임을 축하드립니다</p>
       </a>
     </div>
   </section>
-  <footer id="footer"></footer>
-  </div>
+  <footer class="p_r" id="footer">
+    <div class="wrap">
+      <div id="block1" class="f_l">
+        <a href=""><img src="images/01_common/kgr_logo_long_white.png" alt="고구려 대학교"></a>
+      </div>
+      <div id="block2" class="f_block f_l">
+        <p>58280 전라남도 나주시<br>
+          다시면 백호로 125 고구려대학교<br>
+          TEL : 061-330-7400<br>
+          FAX : 061-335-7128<br>
+          MAIL : master@kgrc.ac.kr</p>
+        <div class="icons">
+          <a href="" title="페이스북"><img src="images/01_common/icon_facebook.png" alt="페이스북"></a>
+          <a href="" title="인스타그램"><img src="images/01_common/icon_instagram.png" alt="인스타그램"></a>
+          <a href="" title="유튜브"><img src="images/01_common/icon_youtube.png" alt="유튜브"></a>
+        </div>
+        <p>KOGURYEO COLLEGE. All rights reserved</p>
+      </div>
+      <div id="block3" class="f_block f_l">
+        <div class="family d_f p_r">
+          <a href="" class="btn_fopen p_r" role="button">학과홈페이지 바로가기</a>
+          <ul>
+            <li><a href="">치위생과</a></li>
+            <li><a href="">곤충산업복지과</a></li>
+            <li><a href="">미용관광복지과</a></li>
+            <li><a href="">토목조경과</a></li>
+            <li><a href="">에너지복지과</a></li>
+            <li><a href="">유아교육과</a></li>
+          </ul>
+          <a href="" class="btn_go">GO</a>
+        </div>
+        <div class="family d_f p_r">
+          <a href="" class="btn_fopen p_r" role="button">부속기관 바로가기</a>
+          <ul>
+            <li><a href="">도서관과</a></li>
+            <li><a href="">정보전산원</a></li>
+            <li><a href="">생활관</a></li>
+            <li><a href="">어학원</a></li>
+            <li><a href="">평생교육원</a></li>
+          </ul>
+          <a href="" class="btn_go">GO</a>
+        </div>
+        <ul class="f_navitem1">
+          <li><a href="">대학소개</a></li>
+          <li><a href="">학과소개</a></li>
+          <li><a href="">대학생활</a></li>
+          <li><a href="">학사지원</a></li>
+          <li><a href="">입학안내</a></li>
+        </ul>
+        <ul class="f_navitem2">
+          <li>이사회 회의록 공개</li>
+          <li>예결산 공개</li>
+          <li>이메일 무단수집거부</li>
+          <li>개인정보 처리방침</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
